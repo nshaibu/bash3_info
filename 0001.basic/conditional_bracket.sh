@@ -2,9 +2,9 @@
 
 read -p "Is it morning? [y/n]: " timeofday
 
-if [ $timeofday = "y" ]; then
+if [ "$timeofday" = "y" ]; then
  echo "Good morning"
-elif [ $timeofday = "n" ]; then
+elif [ "$timeofday" = "n" ]; then
  echo "Good afternoon"
 else
  echo "Oh nooo"
